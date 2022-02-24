@@ -1,0 +1,33 @@
+.top__seller {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.title {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 30%;
+}
+.title p {
+  text-align: center;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.top__seller__items {
+  width: 80%;
+  padding: 50px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    width: 80%;
+    padding: 50px 10%;
+  }
+}

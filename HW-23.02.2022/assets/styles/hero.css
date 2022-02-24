@@ -1,0 +1,99 @@
+.navbar {
+  display: flex;
+  width: 80%;
+  padding: 0px 10%;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+.navbar__search{
+  display: flex;
+  width: 450px;
+}
+.navbar__search input {
+  width: 100%;
+  height: 40px;
+}
+.navbar__items {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+.btn__group {
+  display: flex;
+  column-gap: 20px;
+}
+.btn__group :first-of-type {
+  background: var(--btn-full-color);
+  color: #fff;
+}
+.btn__group :first-of-type:hover{
+  background: var(--bg-color);
+  color: #fff;
+}
+.navbar__items a{
+  color: #737373;
+}
+.navbar .navbar__items--bold{
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .none {
+    display: none;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+  }
+  .hero .hero__text h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .hero .hero__text p {
+    width: 100%;
+    text-align: center;
+  }
+  .hero .hero__btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .hero .hero__play {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  width: 80%;
+  padding: 100px 10%;
+  gap: 40px;
+  background: url(../images/Group\ 104.png) no-repeat;
+  background-position: 800px 100px;
+}
+.hero__text h1 {
+  width: 55%;
+}
+.hero__text p {
+  width: 44%;
+}
+.hero__btn {
+  padding: 25px 0px;
+}
+.hero__play {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.hero__play a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #000;
+}

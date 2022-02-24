@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    width: 80%;
+    padding: 40px 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgba(250,250,250,.3) ;
+    margin-top: 100px;
+}
+.footer :first-child {
+row-gap: 30px;
+}
+.footer input{
+    border-radius: 5px 0px 0px 5px;
+}
+.footer button{
+    color: #fff;
+  font-size: 1rem;
+  padding: 11.5px;
+  border-radius:0px 5px 5px 0px;
+  background: var(--btn-full-color);
+}
+.footer button:hover{
+    background:#1b1a21;
+    border-color: #fff;
+}
+.end{
+ display: flex;
+ justify-content: space-between;
+ width: 76%;
+ padding: 20px 12%;
+}
+.end__icons{
+    display: flex;
+    width: 250px;
+    justify-content: center ;
+    align-items: center;
+    gap: 20px;
+}
+.fa-brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px !important;
+    height: 50px !important;
+    color: #fff;
+    background-color: #1b1a21;
+    border-radius: 50%;
+}

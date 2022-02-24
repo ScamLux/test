@@ -1,0 +1,40 @@
+.hot__bids{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.hot__bids__items{
+    width: 80%;
+  padding: 50px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.hot__bids__btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.hot__bids__btn button{
+    width: 30%;
+}
+.hot__bids__card{
+    width: 250px;
+}
+.hot__bids__card:active{
+    animation: animate 1s ease-in-out   1 forwards;
+}
+@keyframes animate {
+    0%{
+        
+        transform: scale(0);
+    }
+    100%{
+        
+        transform: scale(1);
+    }
+   
+    
+}
