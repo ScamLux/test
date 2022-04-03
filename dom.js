@@ -7,7 +7,6 @@ const addBtn6 = document.getElementById("btn6");
 const addBtn7 = document.getElementById("btn7");
 const addBtn8 = document.getElementById("btn8");
 const heading = document.querySelector("#heading");
-const refresh = document.getElementById("refresher");
 const color = randomColor();
 const color2 = randomColor();
 const color3 = randomColor();
@@ -80,6 +79,5 @@ function randomColor() {
   for (let i = 0; i < 6; i++) {
     color += keys[Math.floor(Math.random() * 16)];
   }
-
   return color;
 }
