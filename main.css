@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #fff;
+  display: grid;
+  place-content: center;
+  gap: 20px;
+  user-select: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 90px;
+  margin: 0;
+}
+section{
+  display: flex;
+  gap: 20px;
+}
+div{
+  display: grid;
+  place-content: center;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #333;
+  font-weight: 700;
+  font-size: 38px;
+  border-radius: 40px;
+ 
+
+}

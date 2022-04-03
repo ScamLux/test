@@ -1,0 +1,34 @@
+---------- 01.04.22 ---------- (48)
+
+#1 -> typeof keyword 👍🏻
+#2 -> Array 👍🏻
+#3 -> Function 👍🏻
+============ Operators ============
+#4 -> Arithmetic Operators 👍🏻
+        ✅ [+] [-] [*] [/] [%] [**]
+
+#5 -> Assignment operators 👍🏻
+        ✅ Increment [++]
+        ✅ Decrement [--]
+
+#6 -> Comparison  operators 👍🏻
+        ✅ [>] [<] [>=] [<=]
+
+#7 -> Equality operators 👍🏻
+        ✅ [==] [===] [!=] [!==]
+
+#8 -> Logical operators
+        ✅ &&
+        ✅ ||
+        ✅ !
+#9 -> Logical operators with non-boolean
+        ✅ Falsy
+            🎁 undefined
+            🎁 null
+            🎁 0
+            🎁 false
+            🎁 ''
+            🎁 NAN -> not a number
+        ✅ Truthy
+
+#10 -> String and template literals
